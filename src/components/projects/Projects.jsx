@@ -1,7 +1,15 @@
-import React from 'react'
-import Title from '../layouts/Title'
-import { project1,project2,project3, project4,project5,project6 } from "../../assets/index";
-import ProjectsCard from './ProjectsCard';
+// Projects.jsx
+import Title from "../layouts/Title";
+
+import project1 from '../../assets/images/projects/project1.avif';
+import project2 from '../../assets/images/projects/project2.avif';
+import project3 from '../../assets/images/projects/project3.avif';
+import project4 from '../../assets/images/projects/project4.avif';
+import project5 from '../../assets/images/projects/project5.avif';
+import project6 from '../../assets/images/projects/project6.avif';
+import eshop from '../../assets/images/projects/eshop.jpeg'
+;
+import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   return (
@@ -18,49 +26,56 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Flavoro Food App"
-          des=" Discover a world of culinary delights and book your favorite dining spots with ease. Enjoy personalized recommendations, exclusive deals, and seamless reservations. Browse detailed menus and read user reviews to make informed choices. Enhance your dining experience with Flavoro! Share your own dining experiences and follow your favorite restaurants for real-time updates and special offers. Flavoro makes every meal a memorable adventure."
+          des="Discover a world of culinary delights and book your favorite dining spots with ease. Enjoy personalized recommendations, exclusive deals, and seamless reservations. Browse detailed menus and read user reviews to make informed choices. Share your own dining experiences and follow your favorite restaurants for real-time updates and special offers."
           src={project1}
           githublink={"https://github.com/hafsoo/Flavoro.git"}
           websitelink={"https://flavoro-three.vercel.app/"}
         />
         <ProjectsCard
           title="Portfolio"
-          des=" Develop a professional project portfolio website designed to highlight your work and achievements. This project includes a clean and modern layout, featuring sections for your personal bio, project showcases, skill sets, and contact information. Utilize responsive design techniques to ensure optimal viewing on all devices. Enhance user engagement with interactive elements and smooth navigation. Ideal for presenting your talents to potential clients, employers, and collaborators, making a lasting impression in the competitive market."
+          des="A professional portfolio website showcasing your work, skills, and contact info. Includes clean layout, responsive design, and interactive navigation, ideal for clients and employers."
           src={project2}
           githublink={"https://github.com/hafsoo/portfolio.git"}
-          websitelink={"https://haffsaa.000webhostapp.com/"} 
+          websitelink={"https://haffsaa.000webhostapp.com/"}
         />
         <ProjectsCard
-          title="Virtual Internship Platform "
-          des="InterneePK connects aspiring professionals with industry-leading companies for remote internships. Gain real-world experience, personalized mentorship, and flexible learning opportunities from anywhere. Enhance your skills through hands-on projects and workshops. Build a strong professional network and earn valuable certifications upon completion. Discover, learn, and excel with InterneePK today!"
+          title="Virtual Internship Platform"
+          des="InterneePK connects professionals with top companies for remote internships. Offers mentorship, certification, real-world experience, and flexible learning."
           src={project3}
           githublink={"https://github.com/hafsoo/redesign-Internee.pk.git"}
-          websitelink={"https://redesign-internee-pk.vercel.app/"} 
+          websitelink={"https://redesign-internee-pk.vercel.app/"}
         />
         <ProjectsCard
           title="Textutilies"
-          des=" Texutilies is your go-to tool for efficient text management. Easily count words and characters in any text, helping you meet specific requirements quickly. Remove extra spaces effortlessly to tidy up your documents. Perfect for writers, students, and professionals needing precise text formatting. Simplify your text editing tasks with Texutilies!"
+          des="Textutilies is a handy tool to count words/characters, remove extra spaces, and clean text formatting. Great for writers, students, and content creators."
           src={project4}
           githublink={"https://github.com/hafsoo/Textutilies.git"}
-          websitelink={"https://hafsoo.github.io/Textutilies//"} 
+          websitelink={"https://hafsoo.github.io/Textutilies//"}
         />
         <ProjectsCard
           title="News App"
-          des=" This News App brings you the latest news from around the world in real-time. Customize your feed to follow topics that matter most to you, from politics and business to entertainment and sports. Enjoy in-depth articles, breaking news alerts, and video coverage all in one app. Share stories with friends and stay informed with daily summaries. With NewsNow, you’ll never miss a headline."
+          des="A real-time news application with topic filtering and category browsing. Stay updated with headlines from various sources, including articles, images, and videos."
           src={project5}
           githublink={"https://github.com/hafsoo/Restful-APIS.git"}
-          websitelink={"http://localhost:5173/#/business"} 
+          websitelink={"http://localhost:5173/#/business"}
         />
         <ProjectsCard
           title="Firebase User Authentication"
-          des=" SecureAuth provides seamless and secure user authentication powered by Firebase. Easily integrate user sign-up, login, and password reset functionalities into your app. Enjoy robust security features, including email verification and multi-factor authentication. Manage user accounts effortlessly with Firebase's real-time database and analytics. Perfect for developers seeking reliable and scalable authentication solutions. SecureAuth ensures your users' data is protected, giving you peace of mind."
+          des="SecureAuth provides Firebase-powered login, registration, password reset, and email verification. Scalable and secure for any app needing auth."
           src={project6}
           githublink={"https://github.com/hafsoo/Firebase-user-authentication.git"}
-          websitelink={" "} 
+          websitelink={""}
+        />
+        <ProjectsCard
+          title="eShop"
+          des="eShop is a full-featured e-commerce app built using the MERN stack. It supports product browsing, cart, checkout, authentication, and admin dashboards."
+          src={eshop}
+          githublink={"https://github.com/hafsoo/ESHOP"}
+          websitelink={"https://eshop-eyuz.vercel.app/"}
         />
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;

@@ -1,9 +1,10 @@
-import React, {  useState } from 'react'
+import  {  useState } from 'react'
 import Title from '../layouts/Title';
 import Education from './Education';
 import Skills from './Skills';
 import Achievement from './Achievement';
 import Experience from "./Experience"
+import CV from "../../assets/CV.pdf"
 
 const Resume = () => {
    const [educationData, setEducationData] = useState(true);
@@ -13,7 +14,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
        <div className='flex justify-center mt-8 space-x-4'>
-      <a href="https://www.goodcv.com/cv/c6089a850dd061cf1840c6c691ac4854" target="_blank" rel="noopener noreferrer">
+      <a href={CV} target="_blank" rel="noopener noreferrer">
       <button className="bg-designColor text-xl w-40 text-white font-bold py-2 px-4 rounded-full hover:bg-gray-700 transition duration-300">
        View CV
       </button>
