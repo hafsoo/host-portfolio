@@ -1,4 +1,4 @@
-//import React from 'react'
+import React from 'react'
 import { FaFacebookF, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
