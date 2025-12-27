@@ -17,9 +17,9 @@ const Education = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="BSc in Computer Science"
+            title="BS in Computer Science"
             subTitle="University of Education (2022 - 2026)"
-            result="3.67/4"
+            result="3.71/4"
             des="The training provided by universities in order to prepare people to work in various sectors of the economy or areas of culture."
           />
           <ResumeCard

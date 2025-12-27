@@ -14,7 +14,7 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Hafsa Riaz</h3>
         <p className="text-lg font-normal text-gray-400">
-          Front End Developer
+          Mern Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
         I am a passionate and experienced Front End Developer with a strong background in building engaging and responsive web applications. I specialize in using modern web technologies like HTML, CSS, JavaScript, and React to create intuitive and dynamic user interfaces. Whether you need a new website, a web application, or a redesign of an existing site, I am here to help you achieve your goals. Let's connect and bring your vision to life!
